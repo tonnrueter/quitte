@@ -1,5 +1,3 @@
-context('calc_addVariable()')
-
 library(tidyverse)
 
 data <- inline.data.frame(c(

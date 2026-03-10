@@ -1,5 +1,3 @@
-context('calc_quantiles()')
-
 test_that(
   'Test calc_quantiles() results',
   {

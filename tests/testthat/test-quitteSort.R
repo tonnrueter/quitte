@@ -1,4 +1,3 @@
-context('quitteSort()')
 
 test_that('quitteSort works', {
   for (qe in list(quitte_example_dataAR6, quitte_example_data)) {

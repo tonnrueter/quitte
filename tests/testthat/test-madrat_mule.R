@@ -1,4 +1,3 @@
-context('madrat_mule()')
 
 test_that(
     desc = 'madrat_mule() returns identical tibbles',

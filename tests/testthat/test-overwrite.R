@@ -1,4 +1,3 @@
-context('overwrite()')
 
 test_that(
   'Test overwrite() results',

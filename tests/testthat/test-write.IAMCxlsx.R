@@ -1,4 +1,3 @@
-context('write.IAMCxlsx()')
 
 # write .xlsx files ----
 test_that(

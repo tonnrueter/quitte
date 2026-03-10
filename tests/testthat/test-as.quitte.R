@@ -1,5 +1,3 @@
-context("as.quitte()")
-
 test_that(
   "Test if dimensionless variables are transformed correctly",
   {

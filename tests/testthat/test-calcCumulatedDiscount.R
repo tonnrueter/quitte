@@ -1,5 +1,3 @@
-context('calcCumulatedDiscount()')
-
 test_that(
   'Test calcCumulatedDiscount() results',
   {

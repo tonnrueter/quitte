@@ -1,5 +1,3 @@
-context('check_quitte()')
-
 test_that(
   'Test check_quitte() results',
   {

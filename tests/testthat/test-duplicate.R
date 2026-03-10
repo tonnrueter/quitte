@@ -1,5 +1,3 @@
-context('duplicate()')
-
 test_that(
   'Test duplicate() results',
   {

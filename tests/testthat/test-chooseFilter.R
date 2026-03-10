@@ -1,5 +1,3 @@
-context('chooseFilter()')
-
 test_that('select data', {
   qe <- as.quitte(quitte_example_dataAR6, na.rm = TRUE)
 
