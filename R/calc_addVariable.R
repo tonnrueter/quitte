@@ -131,7 +131,12 @@ calc_addVariable <- function(data, ..., units = NA, na.rm = TRUE,
       filedata <- .dots[[1]]
     }
     else {
-      filedata <- read_delim(.dots[[1]], delim = ';', comment = "#")
+      if (endsWith(.dots[[1]], ".csv")) {
+        csvFileOrContent <- .dots[[1]]
+      } else {
+        csvFileOrContent <- I(.dots[[1]])
+      }
+      filedata <- read_delim(csvFileOrContent, delim = ';', comment = "#")
     }
 
     if (!all(c('variable', 'formula') %in% colnames(filedata))) {
