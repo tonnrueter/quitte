@@ -1,4 +1,3 @@
-context('interpolate_missing_periods()')
 
 test_that(
   'Test interpolate_missing_periods()',

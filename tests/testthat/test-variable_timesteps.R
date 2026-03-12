@@ -1,4 +1,3 @@
-context('variable timesteps')
 
 #  parameters ----
 ## add_timesteps_columns() parameters ----

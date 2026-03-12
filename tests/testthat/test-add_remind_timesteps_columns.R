@@ -1,5 +1,3 @@
-context('add_remind_timesteps_columns ranges')
-
 test_that(
     'remind_timesteps and add_remind_timesteps_columns are correct',
 

@@ -1,4 +1,3 @@
-context('replace_column()')
 
 test_that(
   'Test replace_column() results',

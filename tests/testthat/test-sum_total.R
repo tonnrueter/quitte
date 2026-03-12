@@ -1,4 +1,3 @@
-context('sum_total()')
 
 test_that(
   'Test sum_total() results',

@@ -1,5 +1,3 @@
-context("character.data.frame()")
-
 # get some test data
 df <- read.quitte(
     system.file('extdata', 'REMIND_generic_r7552c_1p5C_Def-rem-5.mif',

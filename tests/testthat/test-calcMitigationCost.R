@@ -1,5 +1,3 @@
-context('calcMitigationCost()')
-
 test_that(
   'Test calcMitigationCost() results',
   {

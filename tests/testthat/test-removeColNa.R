@@ -1,4 +1,3 @@
-context("removeColNa()")
 
 # create some test data
 df <- data.frame(

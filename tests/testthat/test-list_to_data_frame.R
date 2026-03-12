@@ -1,4 +1,3 @@
-context('list_to_data_frame()')
 
 test_that(
   'Test list_to_data_frame() results',

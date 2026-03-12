@@ -1,5 +1,3 @@
-context('add_countrycode()')
-
 test_that(
   'Test add_countrycode results',
   {

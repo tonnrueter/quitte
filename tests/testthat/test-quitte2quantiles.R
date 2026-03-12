@@ -1,4 +1,3 @@
-context('quitte2quantiles()')
 
 test_that(
   'Test quitte2quantiles() results',

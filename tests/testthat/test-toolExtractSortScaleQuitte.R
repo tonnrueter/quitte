@@ -1,4 +1,3 @@
-context('toolExtractSortScaleQuitte()')
 
 test_that(
   'Test toolExtractSortScaleQuitte() results',

@@ -1,5 +1,3 @@
-context('aggregate_map()')
-
 test_that(
   'Test aggregate_map results',
   {

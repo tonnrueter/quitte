@@ -1,4 +1,3 @@
-context('gg_colour_hue()')
 
 test_that(
     desc = 'Test if correct colours are returned',
