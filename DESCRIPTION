@@ -27,6 +27,7 @@ Imports:
     countrycode,
     dplyr (>= 1.1.1),
     forcats (>= 1.0.0),
+    gamstransfer,
     ggplot2 (>= 4.0.0),
     gms (>= 0.17.0),
     glue,
@@ -51,7 +52,6 @@ Imports:
     zoo,
 Suggests:
     covr,
-    gamstransfer,
     gdxrrw,
     knitr,
     mip,
