@@ -1,5 +1,3 @@
-# source(test_path('test_data/make_test_data.R'))
-
 # helpers ----
 make_quitte_for_write <- function(param_data, var_name, dim_names) {
     param_data %>%
