@@ -55,7 +55,7 @@ A BibTeX entry for LaTeX users is
 @Misc{,
   title = {quitte: Bits and pieces of code to use with quitte-style data frames},
   author = {Michaja Pehl and Nico Bauer and Jérôme Hilaire and Antoine Levesque and Gunnar Luderer and Anselm Schultes and Jan Philipp Dietrich and Oliver Richters and Tonn Rüter},
-  date = {2026-03-26},
+  date = {2026-03-31},
   year = {2026},
   url = {https://github.com/pik-piam/quitte},
   note = {Version: 0.3148.0},
