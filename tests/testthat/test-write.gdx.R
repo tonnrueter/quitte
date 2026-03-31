@@ -81,14 +81,16 @@ test_that('write.gdx warns on unmapped variables only if verbose = TRUE', {
 })
 
 # missing varmap entries always warn ----
-test_that('write.gdx always warns on varmap entries missing from df', {
-    x     <- make_quitte_for_write(parameter_d1, 'myVar', 'region')
-    gdxFn <- withr::local_tempfile(fileext = '.gdx')
+test_that("write.gdx always warns on varmap entries missing from df", {
+    x <- make_quitte_for_write(parameter_d1, "myVar", "region")
+    fp <- withr::local_tempfile(fileext = ".gdx")
 
     expect_warning(
-        write.gdx(x, gdxFn, varmap = c('myVar' = 'p', 'missingVar' = 'q'),
-                  dimCols = 'region'),
-        regexp = 'not found in `df`'
+        write.gdx(x, fp,
+            varmap = c("myVar" = "p", "missingVar" = "q"),
+            dimCols = "region"
+        ),
+        regexp = "not found in `qf`"
     )
 })
 
@@ -109,10 +111,12 @@ test_that("write.gdx aborts when no variables match varmap", {
 
 
 # return value ----
-test_that('write.gdx invisibly returns gdxFn', {
-    x     <- make_quitte_for_write(parameter_d1, 'myVar', 'region')
-    gdxFn <- withr::local_tempfile(fileext = '.gdx')
-    ret   <- write.gdx(x, gdxFn, varmap = c('myVar' = 'p'),
-                       dimCols = 'region')
-    expect_equal(ret, gdxFn)
+test_that("write.gdx invisibly returns qf", {
+    x <- make_quitte_for_write(parameter_d1, "myVar", "region")
+    fp <- withr::local_tempfile(fileext = ".gdx")
+    ret <- write.gdx(x, fp,
+        varmap = c("myVar" = "p"),
+        dimCols = "region"
+    )
+    expect_equal(ret, x)
 })
