@@ -4,12 +4,12 @@
 \alias{write.gdx}
 \title{Write quitte data frame to a \code{.gdx} file}
 \usage{
-write.gdx(df, gdxFn, varmap, dimCols = c("region", "period"), verbose = FALSE)
+write.gdx(qf, path, varmap, dimCols = c("region", "period"), verbose = FALSE)
 }
 \arguments{
-\item{df}{A quitte data frame.}
+\item{qf}{A quitte data frame.}
 
-\item{gdxFn}{Path to the \code{.gdx} file to write.}
+\item{path}{Path to the \code{.gdx} file to write.}
 
 \item{varmap}{Named character vector mapping quitte \code{variable} values to
 valid GAMS parameter names, e.g.
@@ -20,11 +20,11 @@ dropped with a warning.}
 \item{dimCols}{Character vector of quitte columns to use as GAMS parameter
 dimensions.  Defaults to \code{c("region", "period")}.}
 
-\item{verbose}{If \code{TRUE}, warn about variables in \code{df} not present in
+\item{verbose}{If \code{TRUE}, warn about variables in \code{qf} not present in
 \code{varmap}.  Defaults to \code{FALSE}.}
 }
 \value{
-Invisibly returns \code{gdxFn}.
+Invisibly returns \code{qf}.
 }
 \description{
 Writes one or more variables from a quitte data frame as GAMS parameters
